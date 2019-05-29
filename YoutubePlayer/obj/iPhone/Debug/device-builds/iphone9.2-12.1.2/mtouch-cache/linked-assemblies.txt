@@ -1,0 +1,6 @@
+RemoveDynamicRegistrar:true
+/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/bin/iPhone/Debug/device-builds/iphone9.2-12.1.2/YoutubePlayer.app:/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhone/Debug/device-builds/iphone9.2-12.1.2/mtouch-cache/1-Link/YoutubePlayer.exe
+/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/bin/iPhone/Debug/device-builds/iphone9.2-12.1.2/YoutubePlayer.app:/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhone/Debug/device-builds/iphone9.2-12.1.2/mtouch-cache/1-Link/mscorlib.dll
+/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/bin/iPhone/Debug/device-builds/iphone9.2-12.1.2/YoutubePlayer.app:/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhone/Debug/device-builds/iphone9.2-12.1.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/bin/iPhone/Debug/device-builds/iphone9.2-12.1.2/YoutubePlayer.app:/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhone/Debug/device-builds/iphone9.2-12.1.2/mtouch-cache/1-Link/System.dll
+/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/bin/iPhone/Debug/device-builds/iphone9.2-12.1.2/YoutubePlayer.app:/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhone/Debug/device-builds/iphone9.2-12.1.2/mtouch-cache/1-Link/NativeLibrary.dll

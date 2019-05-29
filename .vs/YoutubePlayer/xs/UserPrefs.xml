@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{3EBAE605-9FB6-4023-8DF9-BCADB07F9B59}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="YoutubePlayer/Main.cs">
+    <Files>
+      <File FileName="YoutubePlayer/Main.storyboard" />
+      <File FileName="YoutubePlayer/FirstViewController.cs" Line="27" Column="39" />
+      <File FileName="YoutubePlayer/Main.cs" Line="13" Column="1" />
+      <File FileName="../../Downloads/youtube-ios-player-helper-master/Classes/YTPlayerView.h" Line="207" Column="20" NotebookId="1" />
+      <File FileName="../ExampleBinding/ExampleBinding/ApiDefinition.cs" Line="141" Column="19" NotebookId="1" />
+      <File FileName="YoutubePlayer/SecondViewController.cs" Line="19" Column="1" NotebookId="1" />
+      <File FileName="YoutubePlayer/Resources/LaunchScreen.xib" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="YoutubePlayer" expanded="True">
+            <Node name="YoutubePlayer" expanded="True">
+              <Node name="Resources" expanded="True" />
+              <Node name="Main.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.YoutubePlayer PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.588237d9bdcde23a34b445e628a6ca43e9345a9a" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

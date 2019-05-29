@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>bundle-id</key>
+		<string>Xamarin.YoutubePlayer.asset-pack-0000546VOMC83</string>
+		<key>bundle-path</key>
+		<string>/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.2/actool/OnDemandResources/Xamarin.YoutubePlayer.Pause.assetpack</string>
+		<key>tags</key>
+		<array>
+			<string>Pause</string>
+		</array>
+	</dict>
+	<dict>
+		<key>bundle-id</key>
+		<string>Xamarin.YoutubePlayer.asset-pack-000000CRPTO3E</string>
+		<key>bundle-path</key>
+		<string>/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhoneSimulator/Debug/device-builds/iphone10.6-12.2/actool/OnDemandResources/Xamarin.YoutubePlayer.Play.assetpack</string>
+		<key>tags</key>
+		<array>
+			<string>Play</string>
+		</array>
+	</dict>
+</array>
+</plist>
