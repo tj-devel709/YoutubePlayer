@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6214" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6207"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -11,6 +10,9 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="10150" translatesAutoresizingMaskIntoConstraints="NO" image="cool-background.png">
+                    <rect key="frame" x="0.0" y="1" width="480" height="479"/>
+                </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) Lambert Essentials 3019" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye" misplaced="YES" ambiguous="YES">
                     <rect key="frame" x="20" y="439.5" width="440" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -23,39 +25,35 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="215" verticalHuggingPriority="251" id="161" translatesAutoresizingMaskIntoConstraints="NO" image="TJYoutube.png" ambiguous="YES" misplaced="YES">
-                    <rect key="frame" x="126" y="228" width="227" height="116"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="11045" translatesAutoresizingMaskIntoConstraints="NO" image="YoutubePlayerLogo2.PNG" misplaced="YES" ambiguous="YES">
+                    <rect key="frame" x="120" y="197" width="240" height="169"/>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="bottomMargin" multiplier="1/3" id="5cJ-9S-tgC" constant="1"/>
-                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="Koa-jz-hwk"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
-                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
-                <constraint id="784" firstItem="kId-c2-rCX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="90"/>
-                <constraint id="793" firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20"/>
-                <constraint id="802" firstAttribute="trailing" secondItem="kId-c2-rCX" secondAttribute="trailing" constant="20"/>
-                <constraint id="811" firstItem="161" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="95"/>
-                <constraint id="1894" firstItem="8ie-xW-0ye" firstAttribute="top" secondItem="161" secondAttribute="bottom" constant="65"/>
-                <constraint id="2084" firstAttribute="trailing" secondItem="161" secondAttribute="trailing" constant="50"/>
-                <constraint id="2277" firstItem="161" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50"/>
                 <constraint id="3066" firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20"/>
+                <constraint id="9266" firstItem="kId-c2-rCX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="90"/>
+                <constraint id="9278" firstAttribute="trailing" secondItem="kId-c2-rCX" secondAttribute="trailing" constant="20"/>
+                <constraint id="9290" firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20"/>
+                <constraint id="11090" firstItem="11045" firstAttribute="leading" secondItem="10150" secondAttribute="leading" constant="120"/>
+                <constraint id="11102" firstItem="10150" firstAttribute="trailing" secondItem="11045" secondAttribute="trailing" constant="120"/>
+                <constraint id="11114" firstItem="11045" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="64"/>
+                <constraint id="11126" firstItem="8ie-xW-0ye" firstAttribute="top" secondItem="11045" secondAttribute="bottom" constant="73"/>
+                <constraint id="11734" firstItem="10150" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="1"/>
+                <constraint id="11746" firstItem="10150" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom"/>
+                <constraint id="11758" firstItem="10150" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing"/>
+                <constraint id="11770" firstItem="10150" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading"/>
+                <constraint id="11782" firstItem="10150" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="1"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="548" y="455"/>
-            <variation key="default">
-                <mask key="constraints">
-                    <exclude reference="5cJ-9S-tgC"/>
-                    <exclude reference="fvb-Df-36g"/>
-                </mask>
-            </variation>
         </view>
     </objects>
     <resources>
-        <image name="TJYoutube.png" width="1596" height="1139"/>
+        <image name="cool-background.png" width="1920" height="1080"/>
+        <image name="YoutubePlayerLogo2.PNG" width="1367" height="954"/>
     </resources>
 </document>

@@ -5,4 +5,4 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/Mono.Security.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/System.Xml.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mono/Xamarin.iOS/System.Core.dll
-/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/bin/iPhoneSimulator/Debug/NativeLibrary.dll
+/Users/tjlambert/Projects/ExampleBinding/ExampleBinding/bin/Debug/NativeLibrary.dll

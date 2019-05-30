@@ -19,3 +19,7 @@
 /Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhone/Debug/device-builds/iphone9.2-12.1.2/optimized/pause.png
 /Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhone/Debug/device-builds/iphone9.2-12.1.2/optimized/play.png
 /Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhone/Debug/device-builds/iphone9.2-12.1.2/optimized/TJYoutube.png
+/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhone/Debug/device-builds/iphone9.2-12.1.2/optimized/FF.png
+/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhone/Debug/device-builds/iphone9.2-12.1.2/optimized/Rewind.png
+/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhone/Debug/device-builds/iphone9.2-12.1.2/optimized/cool-background.png
+/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhone/Debug/device-builds/iphone9.2-12.1.2/optimized/YoutubePlayerLogo2.PNG

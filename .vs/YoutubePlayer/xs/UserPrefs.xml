@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{3EBAE605-9FB6-4023-8DF9-BCADB07F9B59}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="YoutubePlayer/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="YoutubePlayer/Main.storyboard">
     <Files>
       <File FileName="YoutubePlayer/Main.storyboard" />
-      <File FileName="YoutubePlayer/FirstViewController.cs" Line="27" Column="39" />
-      <File FileName="YoutubePlayer/Main.cs" Line="13" Column="1" />
-      <File FileName="../../Downloads/youtube-ios-player-helper-master/Classes/YTPlayerView.h" Line="207" Column="20" NotebookId="1" />
-      <File FileName="../ExampleBinding/ExampleBinding/ApiDefinition.cs" Line="141" Column="19" NotebookId="1" />
-      <File FileName="YoutubePlayer/SecondViewController.cs" Line="19" Column="1" NotebookId="1" />
+      <File FileName="YoutubePlayer/FirstViewController.cs" Line="113" Column="32" />
+      <File FileName="YoutubePlayer/Main.cs" Line="13" Column="10" />
+      <File FileName="../../Downloads/youtube-ios-player-helper-master/Classes/YTPlayerView.h" Line="380" Column="3" NotebookId="1" />
+      <File FileName="../ExampleBinding/ExampleBinding/ApiDefinition.cs" Line="193" Column="59" NotebookId="1" />
       <File FileName="YoutubePlayer/Resources/LaunchScreen.xib" NotebookId="1" />
+      <File FileName="../ExampleBinding/ExampleBinding/Structs.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="YoutubePlayer/SecondViewController.cs" Line="4" Column="19" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,16 +16,16 @@
           <Node name="YoutubePlayer" expanded="True">
             <Node name="YoutubePlayer" expanded="True">
               <Node name="Resources" expanded="True" />
-              <Node name="Main.cs" selected="True" />
+              <Node name="cool-background.png" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.YoutubePlayer PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.588237d9bdcde23a34b445e628a6ca43e9345a9a" />
+  <MonoDevelop.Ide.ItemProperties.YoutubePlayer PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.794CE773-DEB6-4A3F-86DB-92A4F3F1A6D8" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

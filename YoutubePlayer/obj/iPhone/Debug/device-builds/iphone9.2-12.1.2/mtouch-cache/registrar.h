@@ -12,17 +12,19 @@
 
 @class UIApplicationDelegate;
 @class AppDelegate;
-@class FirstViewController;
 @class SecondViewController;
+@protocol YTPlayerViewDelegate;
+@class YTPlayerViewDelegate;
+@class YoutubePlayer_FirstViewController_MyYTPlayerViewDelegate;
+@class FirstViewController;
 @class UIKit_UIControlEventProxy;
 @class Foundation_NSDispatcher;
 @class __MonoMac_NSSynchronizationContextDispatcher;
+@class __Xamarin_NSTimerActionDispatcher;
 @class Foundation_NSAsyncDispatcher;
 @class __MonoMac_NSAsyncSynchronizationContextDispatcher;
 @class UIKit_UIView_UIViewAppearance;
 @class __NSObject_Disposer;
-@protocol YTPlayerViewDelegate;
-@class YTPlayerViewDelegate;
 @class NativeLibrary_YTPlayerView_YTPlayerViewAppearance;
 @class YTPlayerView;
 
@@ -49,28 +51,6 @@
 	-(id) init;
 @end
 
-@interface FirstViewController : UIViewController {
-}
-	@property (nonatomic, assign) UIButton * PauseButton1;
-	@property (nonatomic, assign) UIButton * PlayButton1;
-	@property (nonatomic, assign) id Video1;
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(UIButton *) PauseButton1;
-	-(void) setPauseButton1:(UIButton *)p0;
-	-(UIButton *) PlayButton1;
-	-(void) setPlayButton1:(UIButton *)p0;
-	-(id) Video1;
-	-(void) setVideo1:(id)p0;
-	-(void) viewDidLoad;
-	-(void) didReceiveMemoryWarning;
-	-(void) PauseButton1_TouchUpInside:(UIButton *)p0;
-	-(void) PlayButton1_TouchUpInside:(UIButton *)p0;
-	-(BOOL) conformsToProtocol:(void *)p0;
-@end
-
 @interface SecondViewController : UIViewController {
 }
 	@property (nonatomic, assign) UIButton * SearchButton;
@@ -92,15 +72,6 @@
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
-@interface UIKit_UIView_UIViewAppearance : NSObject {
-}
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(BOOL) conformsToProtocol:(void *)p0;
-@end
-
 @protocol YTPlayerViewDelegate
 	@optional -(void) playerViewDidBecomeReady:(id)p0;
 	@optional -(void) playerView:(id)p0 didChangeToState:(int)p1;
@@ -114,6 +85,60 @@
 @interface YTPlayerViewDelegate : NSObject<YTPlayerViewDelegate> {
 }
 	-(id) init;
+@end
+
+@interface YoutubePlayer_FirstViewController_MyYTPlayerViewDelegate : NSObject<YTPlayerViewDelegate> {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) playerView:(id)p0 didPlayTime:(float)p1;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface FirstViewController : UIViewController {
+}
+	@property (nonatomic, assign) UIButton * FF1;
+	@property (nonatomic, assign) UIButton * PauseButton1;
+	@property (nonatomic, assign) UIButton * PlayButton1;
+	@property (nonatomic, assign) UIButton * Rewind1;
+	@property (nonatomic, assign) UISlider * Slider1;
+	@property (nonatomic, assign) id Video1;
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UIButton *) FF1;
+	-(void) setFF1:(UIButton *)p0;
+	-(UIButton *) PauseButton1;
+	-(void) setPauseButton1:(UIButton *)p0;
+	-(UIButton *) PlayButton1;
+	-(void) setPlayButton1:(UIButton *)p0;
+	-(UIButton *) Rewind1;
+	-(void) setRewind1:(UIButton *)p0;
+	-(UISlider *) Slider1;
+	-(void) setSlider1:(UISlider *)p0;
+	-(id) Video1;
+	-(void) setVideo1:(id)p0;
+	-(void) viewDidLoad;
+	-(void) didReceiveMemoryWarning;
+	-(void) FF1_TouchUpInside:(UIButton *)p0;
+	-(void) PauseButton1_TouchUpInside:(UIButton *)p0;
+	-(void) PlayButton1_TouchUpInside:(UIButton *)p0;
+	-(void) Rewind1_TouchUpInside:(UIButton *)p0;
+	-(void) Slider_Slided:(UISlider *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface UIKit_UIView_UIViewAppearance : NSObject {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
 @interface NativeLibrary_YTPlayerView_YTPlayerViewAppearance : UIKit_UIView_UIViewAppearance {

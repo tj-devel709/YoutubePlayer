@@ -492,6 +492,7 @@ _CloseZStream
 _Flush
 _ReadZStream
 _WriteZStream
+_OBJC_CLASS_$_YTPlayerView
 _mono_pmip
 _xamarin_dyn_objc_msgSend
 _xamarin_dyn_objc_msgSendSuper

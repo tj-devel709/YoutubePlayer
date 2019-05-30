@@ -13,7 +13,7 @@
 --symbollist=/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-symbols.list
 --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
--r=/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/bin/iPhoneSimulator/Debug/NativeLibrary.dll
+-r=/Users/tjlambert/Projects/ExampleBinding/ExampleBinding/bin/Debug/NativeLibrary.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll
@@ -21,7 +21,7 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
 -r=/Users/tjlambert/.nuget/packages/xamarin.essentials/1.0.1/lib/xamarinios10/Xamarin.Essentials.dll
--r=/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/bin/iPhoneSimulator/Debug/NativeLibrary.dll
+-r=/Users/tjlambert/Projects/ExampleBinding/ExampleBinding/bin/Debug/NativeLibrary.dll
 --target-framework=Xamarin.iOS,v1.0
 --root-assembly=/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/bin/iPhoneSimulator/Debug/YoutubePlayer.exe
 

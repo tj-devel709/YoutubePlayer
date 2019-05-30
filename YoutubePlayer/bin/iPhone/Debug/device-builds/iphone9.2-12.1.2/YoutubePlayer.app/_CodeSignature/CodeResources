@@ -40,6 +40,10 @@
 		<data>
 		zmV6UqBSo6r1NOz798vd5O4zTBA=
 		</data>
+		<key>FF.png</key>
+		<data>
+		3rtzikg69A4mq/yQfmeP0SOaEjE=
+		</data>
 		<key>Frameworks/YouTubeiOSPlayerHelper.framework/.DS_Store</key>
 		<data>
 		3y++sUAKzaCQmjLBz2v0kvESHgc=
@@ -66,7 +70,7 @@
 		</data>
 		<key>Frameworks/YouTubeiOSPlayerHelper.framework/YouTubeiOSPlayerHelper</key>
 		<data>
-		ton1Tp9LAV5hbeAVDLbzvRQ5+ZM=
+		HE4C/FUA6/5BRUhtPSwxhyutvzQ=
 		</data>
 		<key>Frameworks/YouTubeiOSPlayerHelper.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -78,15 +82,15 @@
 		</data>
 		<key>LaunchScreen.nib</key>
 		<data>
-		nibfIR3A+1ilgGrgBhs8bFd+OTQ=
+		PFjqhc8Hx0iUFcuossRJdGDqM2Q=
 		</data>
 		<key>Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib</key>
 		<data>
-		Kerr/OMGJ702OJTCWyCCCpwfC5M=
+		ESRnyliXI10J70oTGjiDw0ze/+I=
 		</data>
 		<key>Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib</key>
 		<data>
-		gQGSQ8FV2fxnI2Qf8ihgl5kmalM=
+		dtxSO1ssQm5xd+LE8/MX52wXg+o=
 		</data>
 		<key>Main.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +98,7 @@
 		</data>
 		<key>Main.storyboardc/UITabBarController-49e-Tb-3d3.nib</key>
 		<data>
-		Nxq0O++kLZvPQk21V6QzcrI8/jo=
+		qXmVpo94LkND1+9V4nQ1U+3AT6E=
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -106,7 +110,7 @@
 		</data>
 		<key>NativeLibrary.aotdata.arm64</key>
 		<data>
-		Z9OXf10uwV9ouCeERZ9Xr0A+4iU=
+		p+rz1v31ShE1aPGo1XvFCt4OzcQ=
 		</data>
 		<key>NativeLibrary.dll</key>
 		<data>
@@ -128,6 +132,10 @@
 		<data>
 		Y7RTwLbQj9nn/t6MIbahNFF9GVk=
 		</data>
+		<key>Rewind.png</key>
+		<data>
+		SMD2aqdOtWjs8AMj7TmOI0tWPZI=
+		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
 		nrVMGKClE6pvxn6IcBgG4it6i0A=
@@ -138,7 +146,7 @@
 		</data>
 		<key>System.aotdata.arm64</key>
 		<data>
-		TC4o4wSLKXrJ0KvzA95vrJa9jso=
+		a3NCHS1eow5Y1OQR5bq4geWglxA=
 		</data>
 		<key>System.dll</key>
 		<data>
@@ -154,31 +162,39 @@
 		</data>
 		<key>Xamarin.iOS.aotdata.arm64</key>
 		<data>
-		+1gw5ntSoU8ABZioBPpTQg9JKQc=
+		8DoacTOkK3mp1SqEo9O97g/cEzw=
 		</data>
 		<key>Xamarin.iOS.dll</key>
 		<data>
-		YRxZDIDoAF1uU3JD7t433qQ4+0s=
+		W6KucmrbvTZif6HIYdLh1BIWoBk=
 		</data>
 		<key>Xamarin.iOS.pdb</key>
 		<data>
-		E99Vm2QLO1hU3s/h4sgC+fpiMvo=
+		R+GERE5CnvRr1UZqKwJEwesce00=
 		</data>
 		<key>YoutubePlayer.aotdata.arm64</key>
 		<data>
-		w9E/3VXyXt0/OHLv7tmIlctFGIo=
+		wJWQJAZcE25nOi6eR9qe+5kwmMs=
 		</data>
 		<key>YoutubePlayer.exe</key>
 		<data>
-		hlBVA2/GYfyZ8TVYs7/48JTeYK0=
+		WCZqJ2xSds5l75W1xu/bjb9UJjo=
 		</data>
 		<key>YoutubePlayer.pdb</key>
 		<data>
-		k8ZNyuP8oHyWlFEpux+iNFBVCsA=
+		/n2qwF0kplNnP1GyIkSCf3gaHcs=
+		</data>
+		<key>YoutubePlayerLogo2.PNG</key>
+		<data>
+		FhZ4LZ5600sLdHqG+qZMaZMthII=
 		</data>
 		<key>archived-expanded-entitlements.xcent</key>
 		<data>
 		vO/gVYVVkU1zHBaxd4xJ53/ga5k=
+		</data>
+		<key>cool-background.png</key>
+		<data>
+		l2oVF3Nr3QMc+BAdUkzIvhsl5MM=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -186,15 +202,15 @@
 		</data>
 		<key>mscorlib.aotdata.arm64</key>
 		<data>
-		cXRaMnQRQrattk8sS38qXSeEZ1c=
+		tjLUIxbGSQzpzBsEetpuJNZIqBU=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		FKeOHhvrootLbDd6wxRaulPbbFQ=
+		+ny8/QZRDfB7J07dXsXcvz0/4LE=
 		</data>
 		<key>mscorlib.pdb</key>
 		<data>
-		kS0eZPpsPIdUDM5R7ls4Dla8YbA=
+		8VCRNQ+F8iCWzeZOR1YCWWbbm1Q=
 		</data>
 		<key>pause.png</key>
 		<data>
@@ -270,6 +286,13 @@
 			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
 			</data>
 		</dict>
+		<key>FF.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jEcdrS6kiuw2/FDbdBmuTTNHhWGkzcssyUFzQo+5yls=
+			</data>
+		</dict>
 		<key>Frameworks/YouTubeiOSPlayerHelper.framework/Assets.bundle/Assets/YTPlayerView-iframe-player.html</key>
 		<dict>
 			<key>hash2</key>
@@ -309,7 +332,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NHHnzyBPzRMH/ah5mAPP6YcNm/vSb3HgUzt0Cc5i5Ko=
+			azuTfmexY6CiNCwFrb4lI4bxxsZG0i76QRIvbs1P0V4=
 			</data>
 		</dict>
 		<key>Frameworks/YouTubeiOSPlayerHelper.framework/_CodeSignature/CodeResources</key>
@@ -323,21 +346,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xwFYJIvzai4/ET1gw5EjSJpKI2AJY3thlsyP7I/Ra2w=
+			cx3MB72TId5olgGB4hOV7K4IiCfm5U1tT9lqyCw9ZiI=
 			</data>
 		</dict>
 		<key>Main.storyboardc/8rJ-Kc-sve-view-QS5-Rx-YEW.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cQ2/hZxtinqSp1A+/wc3Y/IkeBiw5sD1642U3XQU3CI=
+			wjNCw/ESrBtDU+qbIpTrEMugROu2+JIIt0ZcAc7qcvo=
 			</data>
 		</dict>
 		<key>Main.storyboardc/9pv-A4-QxB-view-tsR-hK-woN.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pFar/AqOFzoJKmOwhStqmbbZ2HConuqklXGFA1quleI=
+			PZRnmdq2ZNCvF5dKIZHCmnYWOfpJYvXI+CPpAXRI/iU=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Info.plist</key>
@@ -351,7 +374,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jg+SeLdgRf1i2Fn4LXp4ppbWOUhv8fABvA8uqj28Q0c=
+			Y9UEspjJPHaFq5vY9/kEoNQVtAhLAx4cDs0HCS5coWY=
 			</data>
 		</dict>
 		<key>MonoTouchDebugConfiguration.txt</key>
@@ -372,7 +395,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yJD+Vixz7iln/p4eU347O5cvxFpeD5A9grK1N4poNR4=
+			O4/UljBIS+TaJjjBudaOtZKYNslHjuejWefhOemx5KQ=
 			</data>
 		</dict>
 		<key>NativeLibrary.dll</key>
@@ -403,6 +426,13 @@
 			aT6pUQz410e7YdqB7bgYkuUfHh1fR5QnrwmN3rOiur0=
 			</data>
 		</dict>
+		<key>Rewind.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qf6WMSCDCg3s5PGG5Jcx7tYc8oCb4oDomOjI9Lmu5oA=
+			</data>
+		</dict>
 		<key>Settings.bundle/Root.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -421,7 +451,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g14j5Mc+5oQvWGMaORVin+ClENTkLSIADzJHv5dYiGE=
+			hKEoOj8sLrISjZm+VLA7hLSQFwiM3cHuzTXGXhSiVo8=
 			</data>
 		</dict>
 		<key>System.dll</key>
@@ -449,42 +479,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O11TKQ7pGXOlrYOHG2kbj9dZwL1OBZX5v1sj7hPxAbs=
+			XjqstV0b+B+LMk0YuEpb+Lr8NBf9LjYE81EZb0z+WhE=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1CVvVqqVpKliTFKep+J0/f6UZVY753Kzd5BNSMxQUMc=
+			VgMjF/UOC6gwFSRzN9goJPw+YZS27WuqlLEBzNBjEIw=
 			</data>
 		</dict>
 		<key>Xamarin.iOS.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			syHozBIKGp/Yq1OX+XSkVZQIyXaT9LFbrmBZ+4w2cBw=
+			SpQsBK9cOmiYwzLw5fU6NfjuU/BAnxGx3f/C8Q8RoDM=
 			</data>
 		</dict>
 		<key>YoutubePlayer.aotdata.arm64</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fHjW+U1YAI/tT0thxq9qWWNJf2VdH8p3KsAnMWpIB/M=
+			LbMYOxskq76zaCK+WtJ+CNZ5SvLUwMvgVWW0RkygLpY=
 			</data>
 		</dict>
 		<key>YoutubePlayer.exe</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z40UXUqCqz+SZEEITzGgGw54yYB+s9l7+9L21xTCfWU=
+			pVgnVlIGJv8I5m09KAAn16emqZtdKj97MLYB/6kDyEc=
 			</data>
 		</dict>
 		<key>YoutubePlayer.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7o77iyM3WB+VKDGIq1kYwuXx1giOYUhQ7kvkuDJfXBI=
+			t9Te2QMtFwgndf4EIudHQw+xpvva2L4q7+ddnlWLAgM=
+			</data>
+		</dict>
+		<key>YoutubePlayerLogo2.PNG</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			I1XB3iw3hisI3L6seOL7bp803ywwK/I5vlowCfygswI=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -492,6 +529,13 @@
 			<key>hash2</key>
 			<data>
 			l3BKiWC0+szu9UOXoI+10KRWJHw2JzWSFaoqJ98iZWw=
+			</data>
+		</dict>
+		<key>cool-background.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ChqsPAtKJBgwWEeQzp5ZaLTMNWNz+Zi2qmTi0loGJ/M=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -505,21 +549,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rk9+GRp6R5BwICcbdhOEzcfg9fRdDLv4LwOOsp50kcY=
+			sg/kQYsuS8dEOylB7Ug8kayADEFC6MoRNZNRPhtSMHA=
 			</data>
 		</dict>
 		<key>mscorlib.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FGWkK0Q/x5RPF3OE1/1AiHTt3tEBbDFoZjHMxW5FjzA=
+			yd39i99pkTFf9VvFvURPSlYmYpwxpiJyfw1QBwVt9Jo=
 			</data>
 		</dict>
 		<key>mscorlib.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vcTzpD7PYWTiYFnH/SydCKDP/yWyjBT4T1nzEOfa/dI=
+			LOcdV276Pg0+Kr6SY3ofkus1Z2dpY3cNzTOhUiMRX/M=
 			</data>
 		</dict>
 		<key>pause.png</key>

@@ -7,38 +7,87 @@ namespace YoutubePlayer
 {
     public partial class FirstViewController : UIViewController
     {
+        public bool Rewinding { get; set; }
+
         public FirstViewController(IntPtr handle) : base(handle)
         {
         }
+        
 
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            // Perform any additional setup after loading the view, typically from a nib.
-            //NSDictionary dict;
-            //dict["playsinline"] = 1;
+           
             var dict = new NSDictionary("playsinline", 1, "controls", 0, "autoplay", 1, "loop", 1);
             bool loaded = Video1.LoadWithVideoId("JNsKvZo6MDs", dict);
+            Video1.Delegate = new MyYTPlayerViewDelegate
+            {
+                Slide = Slider1
+            };
+
+            NSTimer timer = NSTimer.CreateRepeatingScheduledTimer(TimeSpan.FromSeconds(.5), delegate { Rewind(); });
+
+
+            //var timer = new NSTimer(2000);
+            //timer.Elapsed += OnTimerElapsed;
+            //timer.Start();
+            //Console.WriteLine("Timer started, control is back here");
+
+
             //aladdin is foyufD52aog, gorillas dancing 7B6FkBqkZ1g
+        }
 
-            //if (loaded == true)
-            //Video1.PlayVideoAt(10);
-            //Progress1.
 
+        //public void OnTimerElasped(object o, EventArgs e)
+        //{
+        //    Console.WriteLine("tick");
+        //}
+
+        public class MyYTPlayerViewDelegate : YTPlayerViewDelegate
+        {
+            public UISlider Slide { get; set; }
+
+
+            override public void PlayerViewDidPlayTime(YTPlayerView playerView, float playTime)
+            {
+                Slide.SetValue(playTime / ((float)playerView.Duration()), true);
+            }
 
         }
 
+
         partial void PauseButton1_TouchUpInside(UIButton sender)
         {
+            Rewinding = false;
             Video1.PauseVideo();
+            Video1.SetPlaybackRate(1);
+        }
+
+        partial void Slider_Slided(UISlider sender)
+        {
+            Rewinding = false;
+            Video1.SetPlaybackRate(1);
+
+            bool ShouldBePaused = false;
+
+            if (Video1.PlayerState() != YTPlayerState.Playing)
+                ShouldBePaused = true;
+                   
+            Video1.SeekToSeconds( ((float)sender.Value) * (float)Video1.Duration(), true);
+
+            if (ShouldBePaused)
+                Video1.PauseVideo();
+            else
+                Video1.PlayVideo();
         }
 
         partial void PlayButton1_TouchUpInside(UIButton sender)
         {
+            Rewinding = false;
+            Video1.SetPlaybackRate(1);
             Video1.PlayVideo();
-            //Video1.pl
         }
-
+       
         public override void DidReceiveMemoryWarning()
         {
             base.DidReceiveMemoryWarning();
@@ -46,5 +95,38 @@ namespace YoutubePlayer
         }
 
 
+        partial void Rewind1_TouchUpInside(UIButton sender)
+        {
+            Rewinding = true;
+            Rewind();
+        }
+
+        public void Rewind()
+        {
+            if (Rewinding)
+            {
+                //Video1.SetPlaybackRate(-5);
+                Video1.SetPlaybackRate(1);
+                float curTime = Slider1.Value * (float)Video1.Duration();
+                float timeIncrements = 4; //(float)Video1.Duration() / 20;
+
+                if (curTime < 4){
+                    Video1.SeekToSeconds(0, true);
+                    Rewinding = false;
+                    return;
+                }
+
+                Video1.SeekToSeconds(curTime - timeIncrements, true);
+
+            }
+           
+        }
+
+
+        partial void FF1_TouchUpInside(UIButton sender)
+        {
+            Rewinding = false;
+            Video1.SetPlaybackRate(2);
+        }
     }
 }
