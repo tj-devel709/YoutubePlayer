@@ -25,21 +25,9 @@ namespace YoutubePlayer
 
             NSTimer timer = NSTimer.CreateRepeatingScheduledTimer(TimeSpan.FromSeconds(1), delegate { Rewind(); });
 
-
-            //var timer = new NSTimer(2000);
-            //timer.Elapsed += OnTimerElapsed;
-            //timer.Start();
-            //Console.WriteLine("Timer started, control is back here");
-
-
             //aladdin is foyufD52aog, gorillas dancing 7B6FkBqkZ1g
         }
 
-
-        //public void OnTimerElasped(object o, EventArgs e)
-        //{
-        //    Console.WriteLine("tick");
-        //}
 
         public class MyYTPlayerViewDelegate : YTPlayerViewDelegate
         {
@@ -92,7 +80,6 @@ namespace YoutubePlayer
         public override void DidReceiveMemoryWarning()
         {
             base.DidReceiveMemoryWarning();
-            // Release any cached data, images, etc that aren't in use.
         }
 
 

@@ -2,15 +2,17 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="YoutubePlayer/SecondViewController.cs">
     <Files>
       <File FileName="YoutubePlayer/Main.storyboard" />
-      <File FileName="YoutubePlayer/FirstViewController.cs" Line="26" Column="110" />
+      <File FileName="YoutubePlayer/FirstViewController.cs" Line="5" Column="1" />
       <File FileName="YoutubePlayer/Main.cs" Line="13" Column="10" />
-      <File FileName="YoutubePlayer/SecondViewController.cs" Line="5" Column="3" />
+      <File FileName="YoutubePlayer/SecondViewController.cs" Line="71" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="YoutubePlayer" expanded="True">
             <Node name="YoutubePlayer" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True" />
               <Node name="SecondViewController.cs" selected="True" />
             </Node>
@@ -19,11 +21,13 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.YoutubePlayer PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.537E1CDE-4F8A-4224-A57D-2877F450216B" />
+  <MonoDevelop.Ide.ItemProperties.YoutubePlayer PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.794CE773-DEB6-4A3F-86DB-92A4F3F1A6D8" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/SecondViewController.cs" relfile="YoutubePlayer/SecondViewController.cs" line="84" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

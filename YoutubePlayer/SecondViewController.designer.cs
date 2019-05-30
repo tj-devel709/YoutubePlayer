@@ -19,11 +19,11 @@ namespace YoutubePlayer
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITextField Text1 { get; set; }
+        UIKit.UILabel SearchResults { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        NativeLibrary.YTPlayerView Video2 { get; set; }
+        UIKit.UITextField Text1 { get; set; }
 
         [Action ("SearchButton_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -36,14 +36,14 @@ namespace YoutubePlayer
                 SearchButton = null;
             }
 
+            if (SearchResults != null) {
+                SearchResults.Dispose ();
+                SearchResults = null;
+            }
+
             if (Text1 != null) {
                 Text1.Dispose ();
                 Text1 = null;
-            }
-
-            if (Video2 != null) {
-                Video2.Dispose ();
-                Video2 = null;
             }
         }
     }
