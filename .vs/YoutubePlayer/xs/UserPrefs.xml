@@ -1,14 +1,10 @@
 ﻿<Properties StartupConfiguration="{3EBAE605-9FB6-4023-8DF9-BCADB07F9B59}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="YoutubePlayer/Main.storyboard">
+  <MonoDevelop.Ide.Workbench ActiveDocument="YoutubePlayer/SecondViewController.cs">
     <Files>
       <File FileName="YoutubePlayer/Main.storyboard" />
-      <File FileName="YoutubePlayer/FirstViewController.cs" Line="113" Column="32" />
+      <File FileName="YoutubePlayer/FirstViewController.cs" Line="26" Column="110" />
       <File FileName="YoutubePlayer/Main.cs" Line="13" Column="10" />
-      <File FileName="../../Downloads/youtube-ios-player-helper-master/Classes/YTPlayerView.h" Line="380" Column="3" NotebookId="1" />
-      <File FileName="../ExampleBinding/ExampleBinding/ApiDefinition.cs" Line="193" Column="59" NotebookId="1" />
-      <File FileName="YoutubePlayer/Resources/LaunchScreen.xib" NotebookId="1" />
-      <File FileName="../ExampleBinding/ExampleBinding/Structs.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="YoutubePlayer/SecondViewController.cs" Line="4" Column="19" NotebookId="1" />
+      <File FileName="YoutubePlayer/SecondViewController.cs" Line="5" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,14 +12,14 @@
           <Node name="YoutubePlayer" expanded="True">
             <Node name="YoutubePlayer" expanded="True">
               <Node name="Resources" expanded="True" />
-              <Node name="cool-background.png" selected="True" />
+              <Node name="SecondViewController.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.YoutubePlayer PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.794CE773-DEB6-4A3F-86DB-92A4F3F1A6D8" />
+  <MonoDevelop.Ide.ItemProperties.YoutubePlayer PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.537E1CDE-4F8A-4224-A57D-2877F450216B" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

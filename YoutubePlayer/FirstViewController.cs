@@ -20,12 +20,10 @@ namespace YoutubePlayer
            
             var dict = new NSDictionary("playsinline", 1, "controls", 0, "autoplay", 1, "loop", 1);
             bool loaded = Video1.LoadWithVideoId("JNsKvZo6MDs", dict);
-            Video1.Delegate = new MyYTPlayerViewDelegate
-            {
-                Slide = Slider1
-            };
+            Video1.Delegate = new MyYTPlayerViewDelegate(Slider1);
+         
 
-            NSTimer timer = NSTimer.CreateRepeatingScheduledTimer(TimeSpan.FromSeconds(.5), delegate { Rewind(); });
+            NSTimer timer = NSTimer.CreateRepeatingScheduledTimer(TimeSpan.FromSeconds(1), delegate { Rewind(); });
 
 
             //var timer = new NSTimer(2000);
@@ -45,8 +43,11 @@ namespace YoutubePlayer
 
         public class MyYTPlayerViewDelegate : YTPlayerViewDelegate
         {
-            public UISlider Slide { get; set; }
-
+            [Weak] UISlider Slide;
+            public MyYTPlayerViewDelegate(UISlider slider)
+            {
+                Slide = slider;
+            }
 
             override public void PlayerViewDidPlayTime(YTPlayerView playerView, float playTime)
             {
@@ -117,6 +118,7 @@ namespace YoutubePlayer
                 }
 
                 Video1.SeekToSeconds(curTime - timeIncrements, true);
+                Video1.PauseVideo();
 
             }
            

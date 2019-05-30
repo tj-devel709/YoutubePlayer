@@ -5452,11 +5452,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/YoutubePlayer.csproj",
+      "projectUniqueName": "/Users/tjlambert/Desktop/YoutubePlayer/YoutubePlayer/YoutubePlayer.csproj",
       "projectName": "YoutubePlayer",
-      "projectPath": "/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/YoutubePlayer.csproj",
+      "projectPath": "/Users/tjlambert/Desktop/YoutubePlayer/YoutubePlayer/YoutubePlayer.csproj",
       "packagesPath": "/Users/tjlambert/.nuget/packages/",
-      "outputPath": "/Users/tjlambert/Projects/YoutubePlayer/YoutubePlayer/obj/",
+      "outputPath": "/Users/tjlambert/Desktop/YoutubePlayer/YoutubePlayer/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
